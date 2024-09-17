@@ -51,3 +51,21 @@ button {
   font-size: 24px;
   margin-top: 20px;
 }
+
+.options {
+  display: flex;
+  flex-wrap: nowrap; /* Prevent wrapping */
+  justify-content: space-between; /* Space out buttons evenly */
+  padding: 10px; /* Optional: adds padding around the container */
+  box-sizing: border-box; /* Include padding and border in the element’s total width and height */
+}
+
+/* Style for buttons */
+button {
+  flex: 1; /* Allow buttons to grow and shrink equally */
+  margin: 0 5px; /* Add margin between buttons */
+  min-width: 0; /* Allow buttons to shrink below their content size */
+  padding: 12px; /* Increase padding for touch-friendly buttons */
+  font-size: 16px; /* Adjust font size for readability */
+  box-sizing: border-box; /* Include padding and border in the element’s total width and height */
+}
