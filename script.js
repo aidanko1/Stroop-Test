@@ -10,7 +10,7 @@ const colors = ["Red", "Green", "Blue", "Yellow"];
 const colorCodes = ["#ff0000", "#00ff00", "#0000ff", "#ffff00"];
 
 let score = 0;
-let timeLeft = 20;
+let timeLeft = 30;
 let gameInterval, timerInterval;
 
 startBtn.addEventListener("click", startGame);
@@ -22,7 +22,7 @@ function startGame() {
   game.style.display = "block";
   result.style.display = "none";
   score = 0;
-  timeLeft = 20;
+  timeLeft = 30;
   updateTimer();
   startTimer();
   showNewColor();
